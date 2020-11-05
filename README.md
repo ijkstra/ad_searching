@@ -10,10 +10,11 @@ How does it work
 Merchants provide a list of ads which contain keywords, bid price, and total budget. Our system store all the information and build the forwarded and inverted indexes.
 When user types the query on the search box, the system parses the query and calculates the relevant score between the query and the ads. Then the system processes a workflow to select, filter, price, and allocate the relevant ads.
 Finally the ads is sent and displayed to the user interface.
+
 How to build it
 Redis, MySQL, Kafka, Tomcat, Spring Boot, Spring Cloud, JUnit, IntelliJ
 
-How to run ads searching system
+How to run ads searching system:
 Run the project locally
 Step1. Install MySQL and Kafka
 
